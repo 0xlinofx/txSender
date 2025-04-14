@@ -1,0 +1,14 @@
+{
+  "name": "txsender",
+  "version": "1.0.0",
+  "description": "Script to send 100-122 transactions daily on EVM chains",
+  "main": "txSender.js",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "node-schedule": "^2.1.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node txSender.js"
+  }
+}
