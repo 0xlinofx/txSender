@@ -111,6 +111,8 @@ async function executeTransactions(wallet, provider, walletAddresses, nativeToke
 
 // Main function to handle transactions
 async function sendTransactions() {
+  console.log('LINOXBT');
+  console.log('Tea Protocol Tx Script');
   console.log('Starting transaction script...');
 
   // Prompt user for inputs
